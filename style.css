@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: 'Mulish', sans-serif;
+  color: #C4C4CC;
+}
+
+body {
+  padding: 100px;
+  display: grid;
+  gap: 60px;
+  background: #121214;
+  place-content: center;
+}
+
+header h1 {
+  font-size: 58px;
+  font-weight: 900;
+  color: #02799D;
+}
+
+header p {
+  font-size: 32px;
+  font-weight: 600;
+  color: #E1E1E6;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 44px 60px;
+}
+
+.card {
+  background: #202024;
+  border: 2px solid #323238;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card h2 {
+  padding: 24px 24px 0;
+  color: #E1E1E6;
+}
+
+.card p {
+  padding: 24px;
+}
